@@ -466,7 +466,38 @@ img {
   padding-bottom: 20px;
   text-transform: uppercase;
 }
+.footer-form {
+  margin-left: 93px;
+}
+.footer-form-text {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-transform: uppercase;
+  color: var(--third-color-text);
+  padding-bottom: 20px;
+}
+.footer-form-btn {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-align: center;
 
+  width: 200px;
+  height: 50px;
+  background-color: var(--accent-color);
+  color: var(--third-color-text);
+  border-radius: 4px;
+  border: none;
+}
+.plane {
+  width: 24px;
+  height: 24px;
+  fill: var(--third-color-text);
+}
 /*===========End Footer===========*/
 /*===========Button===========*/
 .portfolio-list-btn:focus,
@@ -588,7 +619,7 @@ img {
 .backdrop.is-hidden {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.close {
+.close-btn {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -598,6 +629,12 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.close {
+  width: 18px;
+  height: 18px;
 }
 .is-hidden {
   opacity: 0;
